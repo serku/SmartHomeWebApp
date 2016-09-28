@@ -42,7 +42,8 @@ export default {
     'otf',
     'ttc',
     'ttf',
-    'woff2?'
+    'woff2?',
+    'json'
   ],
 
   views: {
@@ -60,6 +61,11 @@ export default {
   browserify: {
     bundleName: 'main.js',
     prodSourcemap: false
+  },
+
+  json: {
+    src: 'app/json/**/*.json',
+    dest: 'build/json'
   },
 
   test: {
