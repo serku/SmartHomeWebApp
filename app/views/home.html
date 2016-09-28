@@ -1,10 +1,63 @@
-<h1 class="heading -large">{{ home.title | ExampleFilter }}</h1>
+<div class="page-container">
+	<div class="page-aside">
+		<div class="logo">
+			<img src="http://www.placecage.com/60/60" alt="" style="margin-top: 95px;">
+		</div>
+		<ul class="nav">
+			<li>
+				<a href="">
+					<i class="icon svg-ingect" data-src="svg/menu_doctors.svg"></i>Energie
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="icon svg-ingect" data-src="svg/menu_doctors.svg"></i></i>Hilfe
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="icon svg-ingect" data-src="svg/menu_doctors.svg"></i></i>Kontakt
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="icon svg-ingect" data-src="svg/menu_doctors.svg"></i></i>Urlaub
+				</a>
+			</li>
+		</ul>
+		<div class="feedback">
+			<span>Impressum</span>
+		</div>
+	</div>
 
-<h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
+	<div class="energy-info">
+		<img src="images/energy-info.jpg"  />
+	</div>
+	<div class="widget widget-full" style="background-color: #e9abb1;">
+		widget full
+	</div>
+	<div class="widgets-wrap">
+		<div class="widget widget-half wh-sm" style="background-color: #94d6dc;">
+			widget half
+		</div>
+		<div class="widget widget-sm wh-sm" style="background-color: #abe796;">
+			widget small
+		</div>
+		<div class="widget widget-sm wh-sm" style="background-color: #abe796;">
+			widget small
+		</div>
+	</div>
+	<div class="row">
+		<h1 class="heading -large">{{ home.title | ExampleFilter }}</h1>
+		
+		<h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
+		
+		<img src="images/angular.png" height="100" />
+		<img src="images/gulp.png" height="100" />
+		<img src="images/browserify.png" height="100" />
+		
+		<hr/>
+		<div example-directive title="WOW!" click-message="You clicked me!">Directive is not loaded.</div>
+	</div>
+</div>
 
-<img src="images/angular.png" height="100" />
-<img src="images/gulp.png" height="100" />
-<img src="images/browserify.png" height="100" />
-
-<hr/>
-<div example-directive title="WOW!" click-message="You clicked me!">Directive is not loaded.</div>
