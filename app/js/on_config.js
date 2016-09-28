@@ -5,12 +5,12 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider, $compil
     $compileProvider.debugInfoEnabled(false);
   }
 
-  $locationProvider.html5Mode(true);
+  //$locationProvider.html5Mode(true);
 
   $stateProvider
   .state('Home', {
     url: '/',
-    controller: 'jsonCheckCtrl as home',
+    controller: 'ExampleCtrl as home',
     templateUrl: 'home.html',
     title: 'Home'
   });
